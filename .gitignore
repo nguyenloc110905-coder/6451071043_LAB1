@@ -1,0 +1,21 @@
+# Python / Jupyter caches
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Large raw datasets and local outputs
+*.csv
+*.xlsx
+*.xls
+*.zip
+results/
+data/
+*.log
+
+# Secrets
+.env
+.env.*
+*.key
+*.pem
